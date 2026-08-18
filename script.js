@@ -18,5 +18,5 @@ document.getElementById("quoteForm").addEventListener("submit", (e) => {
   const body = encodeURIComponent(
     `Name: ${data.get("name")}\nPhone: ${data.get("phone")}\nEmail: ${data.get("email")}\nProject address/area: ${data.get("address")}\n\nProject details:\n${data.get("project")}`
   );
-  window.location.href = `mailto:${BUSINESS_EMAIL}?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:${colliezach27@gmail.com}?subject=${subject}&body=${body}`;
 });
